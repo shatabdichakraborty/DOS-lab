@@ -1,0 +1,5 @@
+echo -e "Filename: $3 \nTotal no of lines in the file: `wc -l <$3`"
+echo -e "\nThe first $1 line of file: $3 are:\n"
+echo -e "`head -$1 $3`\n"
+echo -e "The last $2 lines of file: $3 are:\n"
+echo "`tail -$2 $3`"
